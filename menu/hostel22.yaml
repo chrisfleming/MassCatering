@@ -1,0 +1,58 @@
+# General
+hostel:
+    people: 1
+
+hostel_by_people:
+    Friday: 35
+    Saturday: 40
+    Sunday: 29
+
+# Breakfast
+breakfast:
+    Saturday: 35
+    Sunday: 40
+    Monday: 29
+cooked_breakfast:
+    Saturday: 30
+    Sunday: 25
+
+
+# Lunch
+packed_lunch:
+    Saturday: 40
+    Sunday: 40
+    Monday: 20
+
+# Dinner
+soups/squash_and_chickpea_soup: 
+    Friday: 16
+soups/red_lentil_and_chorizo_soup: 
+    Friday: 16
+baguette: 6 unit
+
+
+lamb_curry: 
+    Saturday: 16
+sweet_potato_chickpea_spinach_curry: 
+    Saturday: 16
+rice: 
+    Saturday: 30
+raita:
+    Saturday: 30
+naan: 30
+lime_pickle: 1 
+mango_chutney: 1
+
+
+
+kids_pizza:
+    Saturday: 14
+
+chocolate_pudding:
+    Saturday: 40
+
+roast_dinner: 
+    Sunday: 23
+toad_in_the_hole: 
+    Sunday: 8
+

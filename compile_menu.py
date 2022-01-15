@@ -78,10 +78,7 @@ class Ingredients():
 
     # Unit equivalents.
     equi = dict()
-    # equi['celery'] = ['celery_sticks']
-    # equi['carrots'] = ['carrot']
     equi['garlic_cloves'] = ['garlic']
-    # equi['tomato'] = ['tomatoes']
 
 
     def __init__(self):

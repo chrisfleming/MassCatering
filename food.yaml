@@ -103,6 +103,8 @@ rice_crispie:
     shop: Supermarket
 pepper:
     shop: Supermarket
+green_pepper:
+    shop: Supermarket
 red_pepper:
     shop: Supermarket
 marmalade:
@@ -164,6 +166,8 @@ parsley:
 parsnip:
     shop: Supermarket
 beef_shin:
+    shop: Butchers
+stewing_steak:
     shop: Butchers
 banana:
     shop: Supermarket
@@ -235,6 +239,8 @@ squash:
     shop: Supermarket
 double_cream:
     shop: Supermarket
+sour_cream:
+    shop: Supermarket
 tin_foil:
     shop: Supermarket
 cling_film:
@@ -260,8 +266,6 @@ crisp:
 cardamom:
     shop: Supermarket
 frozen_pea:
-    shop: Supermarket
-garlic_clove:
     shop: Supermarket
 hummus:
     shop: Supermarket
