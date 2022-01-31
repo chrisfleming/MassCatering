@@ -4,6 +4,12 @@ food_colouring:
 kidney_bean:
     shop: Supermarket
     unit: g
+cannellini_bean:
+    shop: Supermarket
+    unit: g
+black_bean:
+    shop: Supermarket
+    unit: g
 button_mushroom:
     shop: Supermarket
 sunflower_oil:
@@ -55,6 +61,8 @@ baking_powder:
 cornflower:
     shop: Supermarket
 aubergine:
+    shop: Supermarket
+chipotle_paste:
     shop: Supermarket
 vanilla_essence:
     shop: Supermarket
@@ -184,6 +192,8 @@ rice:
 syrup:
     shop: Supermarket
 paprika:
+    shop: Supermarket
+smoked_paprika:
     shop: Supermarket
 self_raising_flour:
     shop: Supermarket
