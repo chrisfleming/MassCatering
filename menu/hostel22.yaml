@@ -11,7 +11,7 @@ hostel_by_people:
 breakfast:
     Saturday: 20
     Sunday: 16
-    Monday: 10
+    Monday: 16
 cooked_breakfast:
     Saturday: 30
 veggie_breakfast:
