@@ -3,13 +3,13 @@ food_colouring:
     unit: g
 kidney_bean:
     shop: Supermarket
-    unit: g
+    unit: can
 cannellini_bean:
     shop: Supermarket
-    unit: g
+    unit: can
 black_bean:
     shop: Supermarket
-    unit: g
+    unit: can
 button_mushroom:
     shop: Supermarket
 sunflower_oil:
