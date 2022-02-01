@@ -1,0 +1,53 @@
+# General
+hostel:
+    people: 1
+
+hostel_by_people:
+    Friday: 34
+    Saturday: 40
+    Sunday: 30
+
+# Breakfast
+breakfast:
+    Saturday: 20
+    Sunday: 16
+    Monday: 16
+cooked_breakfast:
+    Saturday: 30
+veggie_breakfast:
+    Saturday: 3
+pancakes:
+    Sunday: 25
+
+
+# Lunch
+packed_lunch:
+    Saturday: 40
+    Sunday: 40
+# Monday Leftovers
+
+# Dinner
+three_bean_chilli: 
+    Friday: 25
+jacket_potato:
+    Friday: 25
+fish_finger: 10 unit
+side_salad:
+    Friday: 32
+
+haggis: 
+    Saturday: 35
+chocolate_pudding:
+    Saturday: 40
+
+
+kids_pizza:
+    Sunday: 10
+pizza:
+    Sunday: 24
+side_salad:
+    Sunday: 32
+
+
+
+

@@ -7,11 +7,12 @@ ingredients:
     jam: 10g
     marmalade: 7g
     bread: 2 slice
-    OJ: 0.2l
+    OJ: 0.1l
+    apple_juice: 0.05l
     # Cereal about 35g each per person minus allowance for weetabix and porridge split between rice crispies and cornflakes
     cornflake: 9g
     rice_crispie: 9g
     weetabix: 0.4
-    porridge: 20g
+    porridge: 10g
     milk: 150 ml
     sugar: 3g

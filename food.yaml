@@ -3,7 +3,13 @@ food_colouring:
     unit: g
 kidney_bean:
     shop: Supermarket
-    unit: g
+    unit: can
+cannellini_bean:
+    shop: Supermarket
+    unit: can
+black_bean:
+    shop: Supermarket
+    unit: can
 button_mushroom:
     shop: Supermarket
 sunflower_oil:
@@ -56,6 +62,8 @@ cornflower:
     shop: Supermarket
 aubergine:
     shop: Supermarket
+chipotle_paste:
+    shop: Supermarket
 vanilla_essence:
     shop: Supermarket
 mayo:
@@ -102,6 +110,8 @@ chilli_powder:
 rice_crispie:
     shop: Supermarket
 pepper:
+    shop: Supermarket
+green_pepper:
     shop: Supermarket
 red_pepper:
     shop: Supermarket
@@ -165,6 +175,8 @@ parsnip:
     shop: Supermarket
 beef_shin:
     shop: Butchers
+stewing_steak:
+    shop: Butchers
 banana:
     shop: Supermarket
 caster_sugar:
@@ -180,6 +192,8 @@ rice:
 syrup:
     shop: Supermarket
 paprika:
+    shop: Supermarket
+smoked_paprika:
     shop: Supermarket
 self_raising_flour:
     shop: Supermarket
@@ -235,6 +249,8 @@ squash:
     shop: Supermarket
 double_cream:
     shop: Supermarket
+sour_cream:
+    shop: Supermarket
 tin_foil:
     shop: Supermarket
 cling_film:
@@ -260,8 +276,6 @@ crisp:
 cardamom:
     shop: Supermarket
 frozen_pea:
-    shop: Supermarket
-garlic_clove:
     shop: Supermarket
 hummus:
     shop: Supermarket
