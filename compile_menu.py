@@ -23,6 +23,8 @@ def get_args():
                         help="Output directory")
     parser.add_argument('-v', '--verbose', action='store_true',
                         help='verbose output, printing explicit menu parsing and adding of items.')
+    parser.add_argument('-r', '--round', default=2,
+                        help='Set rounding to specified number of decimal places.')
     parser.add_argument('-p', '--pdf-generation', action='store_true',
                         help="Use pandoc to generate pdf from all markdown files in menu - requires pandoc and latex")
     return parser.parse_args()
@@ -81,8 +83,9 @@ class Ingredients():
     equi['garlic_cloves'] = ['garlic']
 
 
-    def __init__(self):
+    def __init__(self, rounding):
         self.list = dict()
+        self.rounding = rounding
 
     def add(self, ingredient, quantity):
         ingredient = self.equivalent_check(ingredient)
@@ -114,9 +117,9 @@ class Ingredients():
                 this_shop = self.default_shop
 
             if this_shop in self.shops:
-                self.shops[this_shop] = self.shops[this_shop] + "    [ ] {:~P} {!s}\n".format(item.quantity, item.name)
+                self.shops[this_shop] = self.shops[this_shop] + "    [ ] {:~P} {!s}\n".format(round(item.quantity, self.rounding), item.name)
             else:
-                self.shops[this_shop] = "    [ ] {:~P} {!s}\n".format(item.quantity, item.name)
+                self.shops[this_shop] = "    [ ] {:~P} {!s}\n".format(round(item.quantity, self.rounding), item.name)
 
         for shop in self.shops:
             output +=  "## %s\n" % (shop)
@@ -137,8 +140,8 @@ def set_verbose_print(vprint):
     else:   
         verboseprint = lambda *a: None      # do-nothing function
 
-def process_menu(menu_yaml, outdir, pdf_generation):
-    ingredients = Ingredients()
+def process_menu(menu_yaml, outdir, pdf_generation, rounding_places):
+    ingredients = Ingredients(rounding_places)
     menu = open_yaml(menu_yaml)
     os.makedirs(outdir, exist_ok = True)
 
@@ -199,7 +202,7 @@ def process_menu(menu_yaml, outdir, pdf_generation):
                         amount = ureg(recipe['ingredients'][ingredient])
 
                     amount_pp = amount/serves
-                    f.write('\t{!s}: {!s}\n'.format(ingredient, amount_pp * people))
+                    f.write('\t{!s}: {!s}\n'.format(ingredient, round(amount_pp * people, rounding_places)))
                     ingredients.add(ingredient, amount_pp * people)
 
                 if 'method' in recipe:
@@ -228,4 +231,4 @@ def process_menu(menu_yaml, outdir, pdf_generation):
 if __name__ == "__main__":
     args = get_args()
     set_verbose_print(args.verbose)
-    process_menu(args.menu, args.output, args.pdf_generation)
+    process_menu(args.menu, args.output, args.pdf_generation, args.round)
