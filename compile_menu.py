@@ -24,7 +24,7 @@ def get_args():
     parser.add_argument('-v', '--verbose', action='store_true',
                         help='verbose output, printing explicit menu parsing and adding of items.')
     parser.add_argument('-r', '--round', default=2,
-                        help='Set rounding to specified number of decimal places.')
+                        help='Set rounding to specified number of decimal places (default=2).')
     parser.add_argument('-p', '--pdf-generation', action='store_true',
                         help="Use pandoc to generate pdf from all markdown files in menu - requires pandoc and latex")
     return parser.parse_args()
