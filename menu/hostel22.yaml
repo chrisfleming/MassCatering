@@ -1,6 +1,6 @@
 # General
 hostel:
-    people: 1
+    People: 1
 
 hostel_by_people:
     Friday: 34
@@ -31,12 +31,13 @@ three_bean_chilli:
     Friday: 25
 jacket_potato:
     Friday: 25
-fish_finger: 10 unit
 side_salad:
     Friday: 32
 
+sausage_and_mash:
+    Saturday: 14
 haggis: 
-    Saturday: 35
+    Saturday: 28
 chocolate_pudding:
     Saturday: 40
 
