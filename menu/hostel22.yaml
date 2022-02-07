@@ -3,17 +3,17 @@ hostel:
     People: 1
 
 hostel_by_people:
-    Friday: 34
-    Saturday: 40
-    Sunday: 30
+    Friday: 38
+    Saturday: 38
+    Sunday: 19
 
 # Breakfast
 breakfast:
     Saturday: 20
     Sunday: 16
-    Monday: 16
+    Monday: 19
 cooked_breakfast:
-    Saturday: 30
+    Saturday: 20
 veggie_breakfast:
     Saturday: 3
 pancakes:
@@ -22,34 +22,34 @@ pancakes:
 
 # Lunch
 packed_lunch:
-    Saturday: 40
-    Sunday: 40
+    Saturday: 38
+    Sunday: 35
 # Monday Leftovers
 
 # Dinner
 three_bean_chilli: 
-    Friday: 25
+    Friday: 30
 jacket_potato:
-    Friday: 25
+    Friday: 30
 side_salad:
-    Friday: 32
+    Friday: 30
 
 sausage_and_mash:
-    Saturday: 14
+    Saturday: 15
 haggis: 
-    Saturday: 28
+    Saturday: 23
 vegan_haggis:
-    Saturday: 14
+    Saturday: 12
 chocolate_pudding:
-    Saturday: 40
+    Saturday: 38
 
 
 kids_pizza:
-    Sunday: 10
+    Sunday: 7
 pizza:
-    Sunday: 24
+    Sunday: 12
 side_salad:
-    Sunday: 32
+    Sunday: 19
 
 
 
