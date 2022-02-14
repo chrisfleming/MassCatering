@@ -221,8 +221,9 @@ fenugreek:
     shop: Supermarket
 mustard:
     shop: Supermarket
-garlic_clove:
+garlic:
     shop: Supermarket
+    unit: bulb
 red_chilli:
     shop: Supermarket
 tomato:

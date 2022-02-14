@@ -8,7 +8,6 @@ bay_leaf = 5 grams
 thyme_sprig = 5 grams
 turnip = 500 grams
 parsnip = 112 grams
-garlic_clove = 7 grams
 egg_large = 68 grams
 egg_medium = 58 grams
 banana = 183 grams
@@ -20,7 +19,6 @@ lettuce = 400 grams
 large_jar = 800 grams
 tomato = 62 grams
 potato = 150 grams
-garlic_bulb = 9 garlic_clove
 celery = 16 celery_stick
 pinch = 3 grams
 jacket_potato = 100 grams
@@ -29,7 +27,11 @@ cucumber = 310 grams
 roll = 60g
 loaf = 800g
 slice = loaf/16
+clove = 7 grams
+bulb = 9 cloves
 lemon = 58 grams
 butternut_squash = 910 grams
+tsp = 3 grams
+tsp = 5 ml
 
 

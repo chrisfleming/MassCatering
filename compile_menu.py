@@ -80,8 +80,6 @@ class Ingredients():
 
     # Unit equivalents.
     equi = dict()
-    equi['garlic_cloves'] = ['garlic']
-
 
     def __init__(self, rounding):
         self.list = dict()
