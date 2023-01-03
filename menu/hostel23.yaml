@@ -1,0 +1,62 @@
+# Hostel Draft 1 - All numbers are wrong!
+
+# General
+hostel:
+    People: 1
+
+hostel_by_people:
+    Friday: 38
+    Saturday: 38
+    Sunday: 19
+
+# Breakfast
+breakfast:
+    Saturday: 20
+    Sunday: 16
+    Monday: 19
+cooked_breakfast:
+    Saturday: 20
+veggie_breakfast:
+    Saturday: 3
+pancakes:
+    Sunday: 25
+
+
+# Lunch
+packed_lunch:
+    Saturday: 38
+    Sunday: 35
+# Monday Leftovers
+
+# Dinner
+jacket_potato:
+    Friday: 30
+side_salad:
+    Friday: 30
+
+sausage_and_mash:
+    Saturday: 15
+sweet_potato_spinach_dhal: 
+    Saturday: 23
+chana_masala:
+    Saturday: 23
+lamb_curry:
+    Saturday: 23
+raita:
+    Saturday: 23
+rice:
+    Saturday: 35
+chocolate_pudding:
+    Saturday: 38
+
+
+kids_pizza:
+    Sunday: 7
+pizza:
+    Sunday: 12
+side_salad:
+    Sunday: 19
+
+
+
+
