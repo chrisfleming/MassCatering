@@ -26,6 +26,8 @@ diced_lamb:
     shop: Butchers
 black_pudding:
     shop: Butchers
+chicken_thigh:
+    shop: Butchers
 sausage:
     shop: Butchers
 chipolata_sausage:
