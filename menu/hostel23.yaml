@@ -31,7 +31,7 @@ jacket_potato:
     Friday: 30
 side_salad:
     Friday: 30
-veg_and_lentil_soup:
+soups/veg_and_lentil_soup:
     Friday: 35
 
 veg_pasta_kids:
@@ -57,8 +57,6 @@ veggie_toad_in_the_hole:
 roast_dinner:
     Sunday: 26
 veggie_sausages: 6
-ice_cream: 5l
-
 
 
 
