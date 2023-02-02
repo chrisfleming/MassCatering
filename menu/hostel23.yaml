@@ -28,9 +28,11 @@ packed_lunch:
 
 # Dinner
 jacket_potato:
-    Friday: 45
+    Friday: 30
 side_salad:
     Friday: 30
+veg_and_lentil_soup:
+    Friday: 35
 
 veg_pasta_kids:
     Saturday: 18
@@ -50,10 +52,12 @@ marshmallow: 2
 
 toad_in_the_hole:
     Sunday: 18
+veggie_toad_in_the_hole:
+    Sunday: 18
 roast_dinner:
-    Sunday: 25
-vegan_roast:
-    Sunday: 4
+    Sunday: 26
+veggie_sausages: 6
+ice_cream: 5l
 
 
 
