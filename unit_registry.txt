@@ -32,6 +32,8 @@ bulb = 9 cloves
 lemon = 58 grams
 butternut_squash = 910 grams
 tsp = 3 grams
+3 grams = tsp
 tsp = 5 ml
+5 ml = tsp
 
 
