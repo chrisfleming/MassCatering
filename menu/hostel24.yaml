@@ -1,6 +1,6 @@
 # 34 Adults + 24 Children, but with meal preferences
 # Weekend: 46 Adult meals + 12 Children Meals  = 58
-# Monday Eve: 28 Adult Meals + 9 Children Meals = 47
+# Monday Eve: 38 Adult Meals + 9 Children Meals = 47
 # Tuesday Breakfast 43 People.
 
 # General
@@ -54,7 +54,7 @@ marshmallow: 2
 pizza:
     Monday: 12
 chilli:
-    Monday: 20
+    Monday: 30
 vegan_chilli:
     Monday: 8
 
