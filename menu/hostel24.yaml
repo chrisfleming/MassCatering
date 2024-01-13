@@ -1,0 +1,62 @@
+# 34 Adults + 24 Children, but with meal preferences
+# Weekend: 46 Adult meals + 12 Children Meals  = 58
+# Monday Eve: 28 Adult Meals + 9 Children Meals = 47
+# Tuesday Breakfast 43 People.
+
+# General
+hostel:
+    z_people: 1
+
+hostel_by_people: #Adults Only (Test year)
+    z_sunday: 34
+    z_monday: 34
+
+# Breakfast
+breakfast: # Cereal 70% attendance 
+    Sunday: 40
+    Monday: 40
+cooked_breakfast: 
+    Sunday: 40
+veggie_breakfast:
+    Sunday: 6
+french_toast:
+    Monday: 46
+
+
+# Lunch
+packed_lunch:
+    Saturday: 58
+    Sunday: 58
+# Monday Leftovers
+
+# Dinner
+## Saturday dinner at 70% for all
+jacket_potato:
+    Saturday: 40
+side_salad:
+    Saturday: 40
+soups/veg_and_lentil_soup:
+    Saturday: 40
+fish_fingers: 36
+chips: 12
+
+
+toad_in_the_hole:
+    Sunday: 12
+haggis:
+    Sunday: 46
+chocolate_pudding:
+    Sunday: 58
+
+marshmallow: 2
+
+
+pizza:
+    Monday: 12
+chilli:
+    Monday: 20
+vegan_chilli:
+    Monday: 8
+
+
+
