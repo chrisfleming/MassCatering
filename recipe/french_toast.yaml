@@ -4,11 +4,12 @@ url: https://www.bbcgoodfood.com/recipes/french-toast
 ingredients:
     egg_large: 2
     milk: 80ml
-    bread: 4 slices
+    bread: 6 slices
     butter: 15g
-    slices: 15g
+    vanilla_extract:  1 tsp 
     frozen_berries: 50g
-    # bacon: 1 
+    maple_syrup: 60ml 
+    yoghurt: 200ml
     oil: 2 tbsp
     icing_sugar: 8g
 method: |
