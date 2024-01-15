@@ -7,14 +7,14 @@
 hostel:
     z_people: 1
 
-hostel_by_people: #Adults Only (Test year)
+hostel_by_people: #Adults Only
     z_sunday: 34
     z_monday: 34
 
 # Breakfast
 breakfast: # Cereal 70% attendance 
     Sunday: 40
-    Monday: 40
+    Tuesday: 40
 cooked_breakfast: 
     Sunday: 40
 veggie_breakfast:
@@ -51,12 +51,16 @@ chocolate_pudding:
 marshmallow: 2
 
 
-pizza:
+kids_pizza:
     Monday: 12
 chilli:
-    Monday: 30
-vegan_chilli:
-    Monday: 8
+    Monday: 19
+becks_bean_chilli:
+    Monday: 19
+rice:
+    Monday: 38
+guacamole:
+    Monday: 38
 
 
 
