@@ -30,21 +30,19 @@ packed_lunch:
 # Monday Leftovers
 
 # Dinner
-## Saturday dinner at 70% for all
+## Saturday dinner at 75% for all
 jacket_potato:
-    Saturday: 40
+    Saturday: 35
 side_salad:
-    Saturday: 40
-soups/veg_and_lentil_soup:
-    Saturday: 40
-fish_fingers: 36
-chips: 12
+    Saturday: 35
+soups/pea_soup:
+    Saturday: 35
 
 
 toad_in_the_hole:
-    Sunday: 12
+    Sunday: 18
 haggis:
-    Sunday: 46
+    Sunday: 39
 chocolate_pudding:
     Sunday: 58
 
@@ -52,15 +50,18 @@ marshmallow: 2
 
 
 kids_pizza:
-    Monday: 12
+    Monday: 7
 chilli:
-    Monday: 19
+    Monday: 17
 becks_bean_chilli:
-    Monday: 19
+    Monday: 17
 rice:
-    Monday: 38
+    Monday: 34
 guacamole:
-    Monday: 38
+    Monday: 34
+
+puff_fruit_tart:
+    Monday: 41
 
 
 
