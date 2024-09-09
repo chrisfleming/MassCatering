@@ -6,7 +6,7 @@
 hostel:
     z_people: 1
 
-hostel_by_people: #Adults Only
+hostel_by_people: 
     z_saturday: 16
     z_sunday: 16
 
@@ -25,7 +25,6 @@ packed_lunch:
 # Monday Leftovers
 
 # Dinner
-## Saturday dinner at 75% for all
 jacket_potato:
     Friday: 16
 side_salad:
