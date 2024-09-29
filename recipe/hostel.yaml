@@ -1,6 +1,6 @@
 name: Other
 ingredients:
-    ice_cream: 4 l
+    # ice_cream: 4 l
     peppermint_tea: 20
     matches: 1
     salt: 200g
@@ -9,9 +9,9 @@ ingredients:
     cling_film: 1
     olive_oil: 1000 ml
     sunflower_oil: 1000 ml
-    popcorn: 200g
-    marshmallow: 2
+    # popcorn: 200g
+    # marshmallow: 2
     washing_up_liquid: 1
-    sponge: 6
-    cloth: 6
+    # sponge: 6
+    # cloth: 6
     foil_trays: 10

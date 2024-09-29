@@ -1,7 +1,6 @@
 # 16 Adults with meal preferences (1 Veggie, 1 Vegan)
 
 
-
 # General
 hostel:
     z_people: 1
@@ -22,7 +21,6 @@ veggie_breakfast_rolls:
 # Lunch
 packed_lunch:
     Saturday: 16
-# Monday Leftovers
 
 # Dinner
 jacket_potato:
@@ -33,9 +31,9 @@ soups/chickpea_leek_soup:
     Friday: 16
 
 
-lamb_stew_dumplings:
+venison_stew_dumplings:
     Saturday: 14
-vegan_irish_stew:
+vegan_bean_stew:
     Saturday: 2
 crumble:
     Saturday: 16

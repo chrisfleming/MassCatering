@@ -14,6 +14,10 @@ button_mushroom:
     shop: Supermarket
 sunflower_oil:
     shop: Supermarket
+egg_large:
+    shop: Butchers
+diced_venison:
+    shop: Butchers
 pork_belly:
     shop: Butchers
 mince:
