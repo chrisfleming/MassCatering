@@ -1,0 +1,42 @@
+# 16 Adults with meal preferences (1 Veggie, 1 Vegan)
+
+
+# General
+hostel:
+    z_people: 1
+
+hostel_by_people: 
+    z_saturday: 16
+    z_sunday: 16
+
+# Breakfast
+breakfast: # Cereal 70% attendance 
+    Saturday: 12
+    Sunday: 12
+breakfast_rolls: 
+    Saturday: 14
+veggie_breakfast_rolls:
+    Saturday: 2
+
+# Lunch
+packed_lunch:
+    Saturday: 16
+
+# Dinner
+jacket_potato:
+    Friday: 16
+side_salad:
+    Friday: 16
+soups/chickpea_leek_soup:
+    Friday: 16
+
+
+venison_stew_dumplings:
+    Saturday: 14
+vegan_bean_stew:
+    Saturday: 2
+crumble:
+    Saturday: 16
+
+
+
