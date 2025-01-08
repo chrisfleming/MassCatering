@@ -12,6 +12,6 @@ ingredients:
     # popcorn: 200g
     # marshmallow: 2
     washing_up_liquid: 1
-    # sponge: 6
-    # cloth: 6
+    sponge: 6
+    cloth: 6
     foil_trays: 10
