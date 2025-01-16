@@ -17,7 +17,7 @@ def get_args():
     """
     parser = ArgumentParser(description="Compile a menu and calculate "
                             "the required quantities.")
-    parser.add_argument('menu', nargs='?',
+    parser.add_argument('menu', nargs='?', 
                         help="YAML file describing menu.")
     parser.add_argument('-o', '--output', default="output",
                         help="Output directory")
