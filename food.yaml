@@ -34,6 +34,8 @@ chicken_thigh:
     shop: Butchers
 sausage:
     shop: Butchers
+stewing_pork:
+    shop: Butchers
 chipolata_sausage:
     shop: Butchers
 bacon:

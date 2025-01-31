@@ -1,57 +1,57 @@
-# 34 Adults + 24 Children
-
+# 30 Adults + 20 Children
 
 # General
 hostel:
     z_people: 1
 
 hostel_by_people: #Adults Only
-    z_sunday: 34
-    z_monday: 34
+    z_sunday: 30
+    z_monday: 30
 
 # Breakfast
 breakfast: # Cereal 70% attendance 
-    Saturday: 40
-    Sunday: 40
+    Saturday: 35
+    Sunday: 35
 breakfast_rolls: 
-    Saturday: 56
+    Saturday: 50
 veggie_breakfast_rolls:
     Saturday: 4
 french_toast:
-    Sunday: 58
-
+    Sunday: 50
 
 # Lunch
 packed_lunch:
-    Saturday: 58
-    Sunday: 58
+    Saturday: 50
+    Sunday: 50
 
 # Dinner
 jacket_potato:
-    Friday: 58
+    Friday: 50
 side_salad:
-    Friday: 58
-soups/squash_miso_soup:
-    Friday: 28
-soups/broccoli_cheese_soup:
-    Friday: 28
-
-
+    Friday: 50
+soups/pea_soup:
+    Friday: 50
 
 
 marshmallow: 2
 pork_cider_stew:
-    Saturday: 58
+    Saturday: 46
+vegan_bean_stew:
+    Saturday: 12
 rice:
-    Saturday: 58
+    Saturday: 50
 chocolate_pudding:
-    Saturday: 58
-
+    Saturday: 50
 
 roast_dinner:
-    Sunday: 58
+    Sunday: 50
 puff_fruit_tart:
-    Sunday: 58
+    Sunday: 50
 
-
-
+50_50_bread: 1
+ham: 100g
+fries: 250g
+banana: 6
+OJ: 1l
+milk: 1l
+tortellini_ham: 1
