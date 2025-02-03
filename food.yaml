@@ -101,6 +101,7 @@ OJ:
     shop: Supermarket
 onion:
     shop: Supermarket
+    unit: grams
 lettuce:
     shop: Supermarket
 cumin:
@@ -213,6 +214,7 @@ ginger:
     shop: Supermarket
 carrot:
     shop: Supermarket
+    unit: grams
 cornflake:
     shop: Supermarket
 dried_chickpea:
@@ -320,5 +322,7 @@ ice_cream:
     shop: Supermarket
 seitan:
     shop: Real Foods
+seitan:
+    shop: Turnbulls
 water:
     shop: General
