@@ -43,10 +43,25 @@ rice:
 chocolate_pudding:
     Saturday: 50
 
-roast_dinner:
-    Sunday: 50
-cauliflower_cheese:
-    Sunday: 30
+lavantine_roast/chickpea_feta_salad:
+    Sunday: 45
+lavantine_roast/lavantine_roast_lamb:
+    Sunday: 45
+lavantine_roast/onion_sumac_salad:
+    Sunday: 45
+lavantine_roast/pomegranate_harissa_aubergine:
+    Sunday: 20
+lavantine_roast/spice_roasted_celeriac:
+    Sunday: 45
+lavantine_roast/tahini_potatoes:
+    Sunday: 45
+lavantine_roast/tomato_salad:
+    Sunday: 45
+
+# roast_dinner:
+#     Sunday: 50
+# cauliflower_cheese:
+#     Sunday: 30
 puff_fruit_tart:
     Sunday: 50
 

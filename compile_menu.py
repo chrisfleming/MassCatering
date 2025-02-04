@@ -66,6 +66,7 @@ class Ingredient():
         self.quantity = quantity
 
     def add(self, quantity):
+        print(self.quantity, quantity)
         self.quantity = self.quantity + quantity
 
     def pr(self):
