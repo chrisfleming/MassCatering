@@ -18,6 +18,8 @@ egg_large:
     shop: Butchers
 diced_venison:
     shop: Butchers
+lamb_leg_bone_in:
+    shop: Butchers
 pork_belly:
     shop: Butchers
 mince:
