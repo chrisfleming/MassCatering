@@ -58,10 +58,10 @@ packed_lunch:
 marshmallow: 2
 
 # Dinner
-# jacket_potato:
-#     Saturday: 47
-# becks_bean_chilli:
-#     Saturday: 47
+jacket_potato:
+    Saturday: 47
+becks_bean_chilli:
+    Saturday: 47
 side_salad:
     Saturday: 47
 chocolate_pudding:
