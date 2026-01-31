@@ -1,0 +1,99 @@
+# 29 adults. 18 children
+# Down to 27/17 for Sunday Night
+# Down moreso on Monday - Loose 4 families?
+# Saturday 47, Sunday 44, Monday 30
+
+# Saturday night (yes it keeps confusing us as well)
+# Baked potatoes with a veggie chilli / baked beans and salad
+# Chocolate pudding and ice-cream 
+
+# Cheese, crackers, vegan alternatives to provide late night snacking/grazing options) 
+
+# Sunday
+# Cereal and toast 
+# Breakfast rolls
+
+# Packed lunch
+
+# Curry (Richard)
+# Pavlova (Charlie)
+
+# Monday
+# Cereal and toast
+# Porridge with fresh fruit, maple syrup etc. 
+
+# Packed lunch
+
+# Roast pork (and vegan alternative)
+# Roast potatoes, parsnips and veg
+# Crumble
+
+
+# General
+hostel:
+    z_people: 1
+
+hostel_by_people: #Adults Only
+    z_sunday: 30
+    z_monday: 30
+
+# Breakfast
+breakfast: # Cereal 70% attendance 
+    Sunday: 35
+    Monday: 35
+breakfast_rolls: 
+    Sunday: 50
+veggie_breakfast_rolls:
+    Sunday: 2
+
+# Porridge with fresh fruit, maple syrup etc. 
+porridge: 
+    Monday: 44
+
+# Lunch
+packed_lunch:
+    Sunday: 47
+    Monday: 44
+
+marshmallow: 2
+
+# Dinner
+# jacket_potato:
+#     Saturday: 47
+# becks_bean_chilli:
+#     Saturday: 47
+side_salad:
+    Saturday: 47
+chocolate_pudding:
+    Saturday: 47
+
+# Sunday Dinner
+# Curry (Richard)
+# Pavlova (Charlie)
+
+carribean_curry:
+    Sunday: 44
+rice:
+    Sunday: 44
+pavlova:
+    Sunday: 44
+
+
+## Monday Night Dinner
+# Roast pork (and vegan alternative)
+# Roast potatoes, parsnips and veg
+# Crumble
+roast_dinner:
+    Monday: 30
+cauliflower_cheese:
+    Monday: 30
+crumble:
+    Monday: 30
+
+
+50_50_bread: 1
+ham: 100g
+fries: 250g
+banana: 6
+OJ: 1l
+milk: 1l

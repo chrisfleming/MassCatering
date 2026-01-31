@@ -20,6 +20,8 @@ diced_venison:
     shop: Butchers
 lamb_leg_bone_in:
     shop: Butchers
+goat_thigh:
+    shop: Butchers
 pork_belly:
     shop: Butchers
 mince:
