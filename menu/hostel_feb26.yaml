@@ -71,12 +71,25 @@ chocolate_pudding:
 # Curry (Richard)
 # Pavlova (Charlie)
 
-carribean_curry:
+carribean_curry/apple_coleslaw:
     Sunday: 44
-rice:
+carribean_curry/curry_goat:
+    Sunday: 42
+carribean_curry/jerk_chicken:
+    Sunday: 42
+carribean_curry/jerk_chicken_gravy:
+    Sunday: 40
+carribean_curry/jerk_vegan_gravy:
+    Sunday: 6
+carribean_curry/peanut_sweet_potato_stew:
+    Sunday: 16
+carribean_curry/smoky_aubergine_rundown:
+    Sunday: 16
+carribean_curry/rice_and_peas:
     Sunday: 44
 pavlova:
     Sunday: 44
+
 
 
 ## Monday Night Dinner
