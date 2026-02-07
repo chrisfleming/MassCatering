@@ -34,12 +34,8 @@ carribean_curry/apple_coleslaw:
     Sunday: 44
 carribean_curry/curry_goat:
     Sunday: 42
-# carribean_curry/ital_stew:
-#     Sunday: 44
 carribean_curry/jerk_chicken:
     Sunday: 42
-# carribean_curry/jerk_butternut_squash:
-    # Sunday: 44
 carribean_curry/jerk_chicken_gravy:
     Sunday: 40
 carribean_curry/jerk_vegan_gravy:
@@ -50,5 +46,5 @@ carribean_curry/smoky_aubergine_rundown:
     Sunday: 16
 carribean_curry/rice_and_peas:
     Sunday: 44
-pavlova:
-    Sunday: 44
+# pavlova:
+#     Sunday: 44
