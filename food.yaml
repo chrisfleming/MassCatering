@@ -24,6 +24,10 @@ goat_thigh:
     shop: Butchers
 pork_belly:
     shop: Butchers
+goat:
+    shop: Butchers
+chicken_leg:
+    shop: Butchers
 mince:
     shop: Butchers
 pork_mince:
