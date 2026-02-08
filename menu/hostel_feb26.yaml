@@ -1,7 +1,7 @@
 # 29 adults. 18 children
-# Down to 27/17 for Sunday Night
-# Down moreso on Monday - Loose 4 families?
-# Saturday 47, Sunday 44, Monday 30
+# Saturday dinner: 29 + 15 + 3
+# Sunday dinner: 27 + 14 + 3
+# Monday dinner: 22 + 9 + 3
 
 # Saturday night (yes it keeps confusing us as well)
 # Baked potatoes with a veggie chilli / baked beans and salad
@@ -38,7 +38,7 @@ hostel_by_people: #Adults Only
     z_monday: 30
 
 # Breakfast
-breakfast: # Cereal 70% attendance 
+breakfast: 
     Sunday: 35
     Monday: 35
 breakfast_rolls: 
@@ -97,11 +97,15 @@ pavlova:
 # Roast potatoes, parsnips and veg
 # Crumble
 roast_dinner:
-    Monday: 30
+    Monday: 32
+vegan_wellington:
+    Monday: 4
 cauliflower_cheese:
     Monday: 30
+yorkshire_pudding:
+    Monday: 36
 crumble:
-    Monday: 30
+    Monday: 36
 
 
 50_50_bread: 1
