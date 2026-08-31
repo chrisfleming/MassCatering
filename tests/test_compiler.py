@@ -1,6 +1,58 @@
 from mass_catering.compiler import compile_menu
 
 
+import pytest
+
+from mass_catering.compiler import (
+    CompilationError,
+    compile_menu,
+)
+
+
+def test_invalid_ingredient_reports_recipe_and_value():
+    menu = {
+        "schema_version": 2,
+        "name": "Error reporting test",
+        "events": [
+            {
+                "day": "Saturday",
+                "meal": "Dinner",
+                "people": 10,
+                "dishes": [
+                    {
+                        "recipe": "game_stew",
+                    }
+                ],
+            }
+        ],
+    }
+
+    recipes = {
+        "game_stew": {
+            "name": "Game stew",
+            "serves": 5,
+            "ingredients": {
+                "thyme": "2 spring",
+            },
+        }
+    }
+
+    with pytest.raises(
+        CompilationError,
+    ) as exception:
+        compile_menu(
+            menu=menu,
+            recipes=recipes,
+        )
+
+    message = str(exception.value)
+
+    assert "recipe/game_stew.yaml" in message
+    assert "Saturday - Dinner" in message
+    assert "thyme" in message
+    assert "'2 spring'" in message
+
+    
 def test_event_default_people_are_used():
     menu = {
         "schema_version": 2,

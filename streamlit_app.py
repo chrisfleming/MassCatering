@@ -4,7 +4,10 @@ import re
 import streamlit as st
 import yaml
 
-from mass_catering.compiler import compile_menu
+from mass_catering.compiler import (
+    CompilationError,
+    compile_menu,
+)
 from mass_catering.pdf import generate_menu_pdf
 from mass_catering.rendering import (
     format_quantity,
@@ -679,19 +682,16 @@ if compile_clicked and selected_menu_input:
 
     except (
         RepositoryError,
+        CompilationError,
         ValueError,
         KeyError,
     ) as exc:
-        st.error(str(exc))
+        st.error("The menu could not be compiled.")
 
-    except Exception as exc:
-        st.error(
-            "An unexpected error occurred while compiling "
-            "the menu."
+        st.code(
+            str(exc),
+            language=None,
         )
-
-        with st.expander("Technical details"):
-            st.exception(exc)
 
 
 # ----------------------------------------------------------------------
