@@ -2,3 +2,5 @@ streamlit
 PyYAML
 pint==0.25.3
 pytest
+reportlab
+rapidfuzz
