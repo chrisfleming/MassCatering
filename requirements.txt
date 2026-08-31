@@ -1,2 +1,2 @@
 Pint==0.9
-PyYAML==5.4
+PyYAML==6.0.3

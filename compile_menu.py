@@ -211,13 +211,13 @@ def process_menu(menu_yaml, outdir, pdf_generation, rounding_places):
                     except:
                         pass
                 if pdf_generation:
-                    f.write("\n\pagebreak")
+                    f.write("\\n\\pagebreak")
                 f.close()
 
     outfile = open(os.path.join(outdir, "shoppinglist.md"), "w")
     outfile.write(ingredients.all_byshop())
     if pdf_generation:
-        outfile.write('\pagebreak')
+        outfile.write('\\pagebreak')
     outfile.close()
 
     if pdf_generation:
