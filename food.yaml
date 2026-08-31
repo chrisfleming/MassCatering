@@ -1,336 +1,67 @@
-food_colouring:
-    shop: Supermarket
-    unit: g
-kidney_bean:
-    shop: Supermarket
-    unit: can
-cannellini_bean:
-    shop: Supermarket
-    unit: can
-black_bean:
-    shop: Supermarket
-    unit: can
-button_mushroom:
-    shop: Supermarket
-sunflower_oil:
-    shop: Supermarket
 egg_large:
     shop: Butchers
-diced_venison:
-    shop: Butchers
-lamb_leg_bone_in:
-    shop: Butchers
-goat_thigh:
-    shop: Butchers
-pork_belly:
-    shop: Butchers
-goat:
-    shop: Butchers
-chicken_leg:
-    shop: Butchers
-mince:
-    shop: Butchers
-pork_mince:
-    shop: Butchers
-beef_mince:
-    shop: Butchers
-diced_lamb:
-    shop: Butchers
-black_pudding:
-    shop: Butchers
-chicken_thigh:
-    shop: Butchers
-sausage:
-    shop: Butchers
-stewing_pork:
-    shop: Butchers
-chipolata_sausage:
-    shop: Butchers
-bacon:
-    shop: Butchers
-haggis:
-    shop: Butchers
-veggie_haggis:
-    shop: Butchers
-corriander_seed:
-    shop: Supermarket
-chickpea:
-    shop: Supermarket
-raspberry_jam:
-    shop: Supermarket
-parmesan:
-    shop: Supermarket
-milk:
-    shop: Supermarket
-wholewheat_flour:
-    shop: Supermarket
-single_cream:
-    shop: Supermarket
-cayenne:
-    shop: Supermarket
-celery:
-    shop: Supermarket
-jam:
-    shop: Supermarket
-baking_powder:
-    shop: Supermarket
-cornflower:
-    shop: Supermarket
-aubergine:
-    shop: Supermarket
-chipotle_paste:
-    shop: Supermarket
-vanilla_essence:
-    shop: Supermarket
-mayo:
-    shop: Supermarket
-suet:
-    shop: Supermarket
-stout:
-    shop: Supermarket
-mustard_seed:
-    shop: Supermarket
-white_wine:
-    shop: Supermarket
-ketchup:
-    shop: Supermarket
-tinned_tomato:
-    shop: Supermarket
-tomato_puree:
-    shop: Supermarket
-bread:
-    shop: Supermarket
-    unit: loaf
-white_vinegar:
-    shop: Supermarket
-thyme_sprig:
-    shop: Supermarket
-OJ:
-    shop: Supermarket
-onion:
-    shop: Supermarket
-    unit: grams
-lettuce:
-    shop: Supermarket
-cumin:
-    shop: Supermarket
-roll:
-    shop: Supermarket
-egg_large:
-    shop: Butchers
-nutmeg:
-    shop: Supermarket
-beef_stock:
-    shop: Supermarket
-chilli_powder:
-    shop: Supermarket
-rice_crispie:
-    shop: Supermarket
-pepper:
-    shop: Supermarket
-green_pepper:
-    shop: Supermarket
-red_pepper:
-    shop: Supermarket
-marmalade:
-    shop: Supermarket
-turnip:
-    shop: Supermarket
-rosemary:
-    shop: Supermarket
-red_onion:
-    shop: Supermarket
-cayenne_pepper:
-    shop: Supermarket
-coconut_milk:
-    shop: Supermarket
-icing_sugar:
-    shop: Supermarket
-porridge:
-    shop: Supermarket
-plain_flour:
-    shop: Supermarket
-digestive:
-    shop: Supermarket
-turmeric:
-    shop: Supermarket
-mustard_powder:
-    shop: Supermarket
-selfraising_flour:
-    shop: Supermarket
-veg_stock:
-    shop: Supermarket
-coriander:
-    shop: Supermarket
+    unit: egg_large
+    display_name: large eggs
+
 bay_leaf:
     shop: Supermarket
-cauliflower:
-    shop: Supermarket
-caramel_can:
-    shop: Supermarket
-cheddar_cheese:
-    shop: Supermarket
-portobello_mushroom:
-    shop: Supermarket
-apple:
-    shop: Supermarket
-orange:
-    shop: Supermarket
-weetabix:
-    shop: Supermarket
-gerkin:
-    shop: Supermarket
-fresh_corriander:
-    shop: Supermarket
-roll:
-    shop: Supermarket
-balsamic:
-    shop: Supermarket
-parsley:
-    shop: Supermarket
-parsnip:
-    shop: Supermarket
-beef_shin:
-    shop: Butchers
-stewing_steak:
-    shop: Butchers
+    unit: bay_leaf
+    display_name: bay leaves
+
 banana:
     shop: Supermarket
-caster_sugar:
+    unit: banana
+    display_name: bananas
+
+apple:
     shop: Supermarket
-butter:
-    shop: Supermarket
-cinnamon:
-    shop: Supermarket
-chocolate:
-    shop: Lidl
-rice:
-    shop: Supermarket
-syrup:
-    shop: Supermarket
-paprika:
-    shop: Supermarket
-smoked_paprika:
-    shop: Supermarket
-self_raising_flour:
-    shop: Supermarket
-olive_oil:
-    shop: Supermarket
-onion_seed:
-    shop: Supermarket
-ginger:
-    shop: Supermarket
-carrot:
-    shop: Supermarket
-    unit: grams
-cornflake:
-    shop: Supermarket
-dried_chickpea:
-    shop: Supermarket
+    unit: apple
+    display_name: apples
+
 lemon:
     shop: Supermarket
-vege_burger:
+    unit: lemon
+    display_name: lemons
+
+potato:
     shop: Supermarket
-leek:
+    unit: g
+    display_name: potatoes
+
+onion:
     shop: Supermarket
-stock:
+    unit: g
+    display_name: onions
+
+dill:
     shop: Supermarket
-fenugreek:
+    unit: g
+    display_name: dill
+
+carrot:
     shop: Supermarket
-mustard:
+    unit: g
+    display_name: carrots
+
+milk:
     shop: Supermarket
+    unit: ml
+
+water:
+    shop: General
+    unit: ml
+
+thyme:
+    shop: Supermarket
+    unit: sprig
+    display_name: thyme sprigs
+
+nori:
+    shop: Supermarket
+    unit: nori_sheet
+    display_name: nori sheets
+
 garlic:
     shop: Supermarket
     unit: bulb
-red_chilli:
-    shop: Supermarket
-tomato:
-    shop: Supermarket
-cherry_tomato:
-    shop: Supermarket
-potato:
-    shop: Supermarket
-indian_bread:
-    shop: Supermarket
-salt:
-    shop: Supermarket
-tea_bag:
-    shop: Supermarket
-coffee:
-    shop: Supermarket
-hot_chocolate:
-    shop: Supermarket
-sugar:
-    shop: Supermarket
-milk:
-    shop: Supermarket
-squash:
-    shop: Supermarket
-double_cream:
-    shop: Supermarket
-sour_cream:
-    shop: Supermarket
-tin_foil:
-    shop: Supermarket
-cling_film:
-    shop: Supermarket
-olive_oil:
-    shop: Supermarket
-sunflower_oil:
-    shop: Supermarket
-marshmallow:
-    shop: Supermarket
-kids_yogurt:
-    shop: Supermarket
-full_fat_milk:
-    shop: Supermarket
-green_chilli:
-    shop: Supermarket
-sweet_potato:
-    shop: Supermarket
-tin_coconut_milk:
-    shop: Supermarket
-crisp:
-    shop: Supermarket
-cardamom:
-    shop: Supermarket
-frozen_pea:
-    shop: Supermarket
-hummus:
-    shop: Supermarket
-cucumber:
-    shop: Supermarket
-gluten_free_option_1:
-    shop: Supermarket
-gluten_free_option_2:
-    shop: Supermarket
-gluten_free_option_3:
-    shop: Supermarket
-egg_dairy_free_opt1:
-    shop: Supermarket
-egg_dairy_free_opt2:
-    shop: Supermarket
-egg_dairy_free_opt3:
-    shop: Supermarket
-melon:
-    shop: Supermarket
-grape:
-    shop: Supermarket
-orange:
-    shop: Supermarket
-pineapple:
-    shop: Supermarket
-mango:
-    shop: Supermarket
-gluten_free_roll:
-    shop: Supermarket
-glace:
-    shop: Supermarket
-ice_cream:
-    shop: Supermarket
-seitan:
-    shop: Real Foods
-seitan:
-    shop: Turnbulls
-water:
-    shop: General
+    display_name: garlic bulbs
