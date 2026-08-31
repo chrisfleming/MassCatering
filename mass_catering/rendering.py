@@ -119,15 +119,16 @@ def render_shopping_list_markdown(
             default_shop,
         )
 
-        rounded_quantity = round(
+        formatted_quantity = format_quantity(
             quantity,
             rounding_places,
         )
 
         shops[shop].append(
-            f"- [ ] {rounded_quantity:~P} "
+            f"- [ ] {formatted_quantity} "
             f"{ingredient_name}"
         )
+
 
     output = [
         "# Shopping List",
@@ -160,3 +161,27 @@ def render_all_recipes_markdown(
         )
 
     return "\n\n\\pagebreak\n\n".join(recipes)
+
+def format_quantity(
+    quantity,
+    rounding_places: int = 2,
+) -> str:
+    """Format a Pint quantity for human-readable output."""
+
+    rounded_quantity = round(
+        quantity,
+        rounding_places,
+    )
+
+    if str(rounded_quantity.units) == "quantity":
+        magnitude = rounded_quantity.magnitude
+
+        if (
+            isinstance(magnitude, float)
+            and magnitude.is_integer()
+        ):
+            magnitude = int(magnitude)
+
+        return str(magnitude)
+
+    return f"{rounded_quantity:~P}"

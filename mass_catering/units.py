@@ -1,3 +1,5 @@
+from tokenize import TokenError
+
 from pint import UnitRegistry
 from pint.errors import PintError
 
@@ -17,33 +19,65 @@ def parse_quantity(
     ingredient_name: str | None = None,
 ):
     """
-    Convert a recipe value into a Pint quantity.
+    Convert an ingredient amount into a Pint quantity.
 
-    Numeric values follow the original application's behaviour:
-    try the ingredient name as a custom unit, then fall back to
-    the custom dimensionless 'quantity' unit.
+    String values such as ``500 g`` are parsed normally.
+
+    Bare numeric values use an ingredient-specific conversion when
+    one is defined in the unit registry. The result is converted to
+    base units so that individual items become an explicit mass for
+    shopping-list aggregation.
+
+    If no ingredient-specific conversion exists, the value is
+    retained as a dimensionless item count.
     """
 
+    if isinstance(value, bool):
+        raise QuantityError(
+            f"Invalid Boolean quantity for "
+            f"{ingredient_name or 'item'}."
+        )
+
+    if isinstance(value, (int, float)):
+        if ingredient_name:
+            try:
+                ingredient_unit = ureg.Unit(ingredient_name)
+                ingredient_quantity = value * ingredient_unit
+
+                return ingredient_quantity.to_base_units()
+
+            except Exception:
+                # The ingredient has no registered conversion.
+                pass
+
+        return value * ureg.quantity
+
+    if not isinstance(value, str):
+        raise QuantityError(
+            f"Quantity for {ingredient_name or 'item'} must be "
+            f"text or a number, not {type(value).__name__}."
+        )
+
+    value = value.strip()
+
+    if not value:
+        raise QuantityError(
+            f"Quantity for {ingredient_name or 'item'} is empty."
+        )
+
     try:
-        if isinstance(value, (int, float)):
-            if ingredient_name:
-                try:
-                    return ureg(
-                        f"{value} {ingredient_name}"
-                    )
-                except (PintError, TypeError, ValueError):
-                    pass
+        return ureg(value)
 
-            return ureg(f"{value} quantity")
-
-        return ureg(str(value))
-
-    except (PintError, TypeError, ValueError) as exc:
+    except (
+        PintError,
+        TokenError,
+        TypeError,
+        ValueError,
+        SyntaxError,
+    ) as exc:
         message = f"Could not parse quantity {value!r}"
 
         if ingredient_name:
-            message += (
-                f" for ingredient {ingredient_name!r}"
-            )
+            message += f" for ingredient {ingredient_name!r}"
 
         raise QuantityError(message) from exc

@@ -7,7 +7,7 @@ import yaml
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 RECIPE_DIR = PROJECT_ROOT / "recipe"
-MENU_DIR = PROJECT_ROOT / "menu"
+MENU_DIR = PROJECT_ROOT / "menu_v2"
 FOOD_FILE = PROJECT_ROOT / "food.yaml"
 UNIT_REGISTRY_FILE = PROJECT_ROOT / "unit_registry.txt"
 
@@ -53,11 +53,12 @@ def list_recipe_names() -> list:
 
 
 def list_menu_names() -> list:
-    """Return menu filenames without the YAML extension."""
+    """Return available version 2 menu identifiers."""
 
     return sorted(
         path.stem
         for path in MENU_DIR.glob("*.yaml")
+        if path.name != "migration_report.yaml"
     )
 
 
