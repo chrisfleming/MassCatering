@@ -1,50 +1,25 @@
-# 29 adults. 18 children
-# Down to 27/17 for Sunday Night
-# Down moreso on Monday - Loose 4 families?
-# Saturday 47, Sunday 44, Monday 30
-
-# Saturday night (yes it keeps confusing us as well)
-# Baked potatoes with a veggie chilli / baked beans and salad
-# Chocolate pudding and ice-cream 
-
-# Cheese, crackers, vegan alternatives to provide late night snacking/grazing options) 
-
-# Sunday
-# Cereal and toast 
-# Breakfast rolls
-
-# Packed lunch
-
-# Curry (Richard)
-# Pavlova (Charlie)
-
-# Monday
-# Cereal and toast
-# Porridge with fresh fruit, maple syrup etc. 
-
-# Packed lunch
-
-# Roast pork (and vegan alternative)
-# Roast potatoes, parsnips and veg
-# Crumble
-
-
-
-carribean_curry/apple_coleslaw:
-    Sunday: 44
-carribean_curry/curry_goat:
-    Sunday: 42
-carribean_curry/jerk_chicken:
-    Sunday: 42
-carribean_curry/jerk_chicken_gravy:
-    Sunday: 40
-carribean_curry/jerk_vegan_gravy:
-    Sunday: 6
-carribean_curry/peanut_sweet_potato_stew:
-    Sunday: 16
-carribean_curry/smoky_aubergine_rundown:
-    Sunday: 16
-carribean_curry/rice_and_peas:
-    Sunday: 44
-# pavlova:
-#     Sunday: 44
+schema_version: 2
+name: Carribean Curry Night 26
+description: Automatically migrated from the legacy menu format. Review this menu before using
+  it for catering.
+events:
+- day: Sunday
+  meal: unspecified
+  people: 44
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: carribean_curry/apple_coleslaw
+  - recipe: carribean_curry/curry_goat
+    people: 42
+  - recipe: carribean_curry/jerk_chicken
+    people: 42
+  - recipe: carribean_curry/jerk_chicken_gravy
+    people: 40
+  - recipe: carribean_curry/jerk_vegan_gravy
+    people: 6
+  - recipe: carribean_curry/peanut_sweet_potato_stew
+    people: 16
+  - recipe: carribean_curry/smoky_aubergine_rundown
+    people: 16
+  - recipe: carribean_curry/rice_and_peas

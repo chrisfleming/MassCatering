@@ -1,72 +1,103 @@
-# General
-hostel:
-    people: 1
-
-hostel_by_people:
-    Thursday: 19
-    Friday: 63
-    Saturday: 63
-    Sunday: 31
-    Monday: 15
-
-# Breakfast
-breakfast:
-    Friday: 19
-    Saturday: 24
-    Sunday: 24
-    Monday: 31
-cooked_breakfast:
-    Saturday: 63
-    Sunday: 63
-
-
-# Lunch
-packed_lunch:
-    Friday: 40
-    Saturday: 63
-    Sunday: 45
-    Monday: 20
-
-# Dinner
-soups/chickpea_leek_soup: 
-    Thursday: 6
-soups/sweet_potato_coconut_and_cardamon_soup: 
-    Thursday: 6
-potato: 12 jacket_potato
-baguette: 4 unit
-# hotdogs:
-#     Thursday: 10
-
-haggis:
-    Friday: 39
-veggie_spaghetti_bolognese:
-    Friday: 24
-
-crumble:
-    Friday: 63
-
-lamb_curry: 
-    Saturday: 20
-sweet_potato_chickpea_spinach_curry: 
-    Saturday: 20
-rice: 
-    Saturday: 39
-raita:
-    Saturday: 39
-naan: 39
-lime_pickle: 1 
-mango_chutney: 2
-
-
-
-kids_pizza:
-    Saturday: 24
-
-chocolate_pudding:
-    Saturday: 64
-
-roast_dinner: 
-    Sunday: 19
-toad_in_the_hole: 
-    Sunday: 12
-
+schema_version: 2
+name: Hostel20
+description: Automatically migrated from the legacy menu format. Review this menu before using
+  it for catering.
+events:
+- day: people
+  meal: unspecified
+  people: 1
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: hostel
+- day: Thursday
+  meal: unspecified
+  people: 19
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: hostel_by_people
+  - recipe: soups/chickpea_leek_soup
+    people: 6
+  - recipe: soups/sweet_potato_coconut_and_cardamon_soup
+    people: 6
+- day: Friday
+  meal: unspecified
+  people: 63
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: hostel_by_people
+  - recipe: breakfast
+    people: 19
+  - recipe: packed_lunch
+    people: 40
+  - recipe: haggis
+    people: 39
+  - recipe: veggie_spaghetti_bolognese
+    people: 24
+  - recipe: crumble
+- day: Saturday
+  meal: unspecified
+  people: 64
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: hostel_by_people
+    people: 63
+  - recipe: breakfast
+    people: 24
+  - recipe: cooked_breakfast
+    people: 63
+  - recipe: packed_lunch
+    people: 63
+  - recipe: lamb_curry
+    people: 20
+  - recipe: sweet_potato_chickpea_spinach_curry
+    people: 20
+  - recipe: rice
+    people: 39
+  - recipe: raita
+    people: 39
+  - recipe: kids_pizza
+    people: 24
+  - recipe: chocolate_pudding
+- day: Sunday
+  meal: unspecified
+  people: 63
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: hostel_by_people
+    people: 31
+  - recipe: breakfast
+    people: 24
+  - recipe: cooked_breakfast
+  - recipe: packed_lunch
+    people: 45
+  - recipe: roast_dinner
+    people: 19
+  - recipe: toad_in_the_hole
+    people: 12
+- day: Monday
+  meal: unspecified
+  people: 31
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: hostel_by_people
+    people: 15
+  - recipe: breakfast
+  - recipe: packed_lunch
+    people: 20
+additional_items:
+- ingredient: potato
+  quantity: 12 jacket_potato
+- ingredient: baguette
+  quantity: 4 unit
+- ingredient: naan
+  quantity: 39
+- ingredient: lime_pickle
+  quantity: 1
+- ingredient: mango_chutney
+  quantity: 2

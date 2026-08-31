@@ -1,43 +1,57 @@
-aubergine_curry:
+schema_version: 2
+name: Weekend
+description: Automatically migrated from the legacy menu format. Review this menu before using
+  it for catering.
+events:
+- day: people
+  meal: unspecified
+  people: 216
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: aubergine_curry
     people: 5
-breakfast:
-    people: 216
-fruit_salad:
+  - recipe: breakfast
+  - recipe: fruit_salad
     people: 2
-chickpea_leek_soup:
+  - recipe: chickpea_leek_soup
     people: 54
-sweet_potato_coconut_and_cardamon_soup:
+  - recipe: sweet_potato_coconut_and_cardamon_soup
     people: 54
-lunch_side:
+  - recipe: lunch_side
     people: 108
-gluten_free_rolls:
+  - recipe: gluten_free_rolls
     people: 4
-banoffee_balls:
+  - recipe: banoffee_balls
     people: 12
-victoria_sponge:
+  - recipe: victoria_sponge
     people: 12
-cheese_scones:
+  - recipe: cheese_scones
     people: 110
-crisps: 3kg
-free_from_afternoon_tea:
+  - recipe: free_from_afternoon_tea
     people: 1
-beef_stew:
+  - recipe: beef_stew
     people: 100
-dumplings:
+  - recipe: dumplings
     people: 100
-vegan_stew:
+  - recipe: vegan_stew
     people: 1
-vegan_gf_stew:
+  - recipe: vegan_gf_stew
     people: 1
-mash:
+  - recipe: mash
     people: 106
-burgers:
+  - recipe: burgers
     people: 125
-vegtable_burgers:
+  - recipe: vegtable_burgers
     people: 12
-ice_cream: 10 l
-glace: 1 unit
-other:
+  - recipe: other
     people: 1
-other_by_people:
+  - recipe: other_by_people
     people: 106
+additional_items:
+- ingredient: crisps
+  quantity: 3kg
+- ingredient: ice_cream
+  quantity: 10 l
+- ingredient: glace
+  quantity: 1 unit

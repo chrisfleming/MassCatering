@@ -1,7 +1,16 @@
-soups/red_lentil_and_chorizo_soup:
-    people: 76
-soups/squash_and_chickpea_soup:
+schema_version: 2
+name: Soupersunday2
+description: Automatically migrated from the legacy menu format. Review this menu before using
+  it for catering.
+events:
+- day: people
+  meal: unspecified
+  people: 76
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: soups/red_lentil_and_chorizo_soup
+  - recipe: soups/squash_and_chickpea_soup
     people: 52
-soups/veg_and_lentil_soup:
+  - recipe: soups/veg_and_lentil_soup
     people: 52
-

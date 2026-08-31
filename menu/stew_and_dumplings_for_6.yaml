@@ -1,4 +1,13 @@
-beef_stew:
-    people: 6
-dumplings:
-    people: 6
+schema_version: 2
+name: Stew And Dumplings For 6
+description: Automatically migrated from the legacy menu format. Review this menu before using
+  it for catering.
+events:
+- day: people
+  meal: unspecified
+  people: 6
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: beef_stew
+  - recipe: dumplings

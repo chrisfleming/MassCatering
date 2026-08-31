@@ -1,30 +1,31 @@
-# General
-wedding_by_people:
+schema_version: 2
+name: Wedding
+description: Automatically migrated from the legacy menu format. Review this menu before using
+  it for catering.
+events:
+- day: people
+  meal: unspecified
+  people: 60
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: wedding_by_people
     people: 53
-wedding:
+  - recipe: wedding
     people: 53
-fruit_salad:
+  - recipe: fruit_salad
     people: 50
-
-# Friday
-
-# Saturday
-breakfast:
-    people: 51
-packed_lunch:
-    people: 52
-gluten_free_rolls: 12 unit
-
-# Sunday
-cooked_breakfast:
-    people: 60
-veggie_breakfast:
-    people: 8
-avocado: 8 units
-
-ice_cream: 6l
-
-# Monday
-breakfast:
+  - recipe: breakfast
     people: 46
-gluten_free_rolls: 12 unit
+  - recipe: packed_lunch
+    people: 52
+  - recipe: cooked_breakfast
+  - recipe: veggie_breakfast
+    people: 8
+additional_items:
+- ingredient: gluten_free_rolls
+  quantity: 12 unit
+- ingredient: avocado
+  quantity: 8 units
+- ingredient: ice_cream
+  quantity: 6l

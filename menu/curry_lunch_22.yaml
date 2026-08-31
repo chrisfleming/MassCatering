@@ -1,25 +1,43 @@
-aubergine_and_chicken_curry:
+schema_version: 2
+name: Curry Lunch 22
+description: Automatically migrated from the legacy menu format. Review this menu before using
+  it for catering.
+events:
+- day: people
+  meal: unspecified
+  people: 24
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: aubergine_and_chicken_curry
     people: 14
-rogan_josh_paste:
+  - recipe: rogan_josh_paste
     people: 3
-garam_masala:
+  - recipe: garam_masala
     people: 1
-sweet_potato_chickpea_spinach_curry:
+  - recipe: sweet_potato_chickpea_spinach_curry
     people: 12
-raita:
+  - recipe: raita
     people: 2
-tarka_daal:
+  - recipe: tarka_daal
     people: 20
-naan: 12 unit
-rice: 1.5 kg
-lime_pickle: 1 unit
-mango_chutney: 1 unit
-french_vanilla_ice_cream:
-    people: 24
-caster_sugar: 500 g
-double_cream: 500 ml
-unrefined_sugar: 400g
-plums: 1800 g
-star_anise: 6 unit
-
-
+  - recipe: french_vanilla_ice_cream
+additional_items:
+- ingredient: naan
+  quantity: 12 unit
+- ingredient: rice
+  quantity: 1.5 kg
+- ingredient: lime_pickle
+  quantity: 1 unit
+- ingredient: mango_chutney
+  quantity: 1 unit
+- ingredient: caster_sugar
+  quantity: 500 g
+- ingredient: double_cream
+  quantity: 500 ml
+- ingredient: unrefined_sugar
+  quantity: 400g
+- ingredient: plums
+  quantity: 1800 g
+- ingredient: star_anise
+  quantity: 6 unit

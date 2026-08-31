@@ -1,63 +1,79 @@
-
-# General
-hostel:
-    People: 1
-
-hostel_by_people: #Adults Only (Test year)
-    Saturday: 28
-    Sunday: 28
-
-# Breakfast
-breakfast:
-    Saturday: 46
-    Sunday: 46
-    Monday: 25
-cooked_breakfast:
-    Saturday: 40
-veggie_breakfast:
-    Saturday: 6
-pancakes:
-    Sunday: 46
-
-
-# Lunch
-packed_lunch:
-    Saturday: 46
-    Sunday: 46
-# Monday Leftovers
-
-# Dinner
-jacket_potato:
-    Friday: 30
-side_salad:
-    Friday: 30
-soups/veg_and_lentil_soup:
-    Friday: 35
-
-veg_pasta_kids:
-    Saturday: 18
-Ingredients_for_Richard: 
-    Saturday: 1
-raita:
-    Saturday: 30
-coconut_yogurt: 1
-avocado: 1
-rice:
-    Saturday: 30
-chocolate_pudding:
-    Saturday: 46
-
-marshmallow: 2
-
-
-toad_in_the_hole:
-    Sunday: 18
-veggie_toad_in_the_hole:
-    Sunday: 18
-roast_dinner:
-    Sunday: 26
-vegan_irish_stew: 
-    Sunday: 6
-
-
-
+schema_version: 2
+name: Hostel23
+description: Automatically migrated from the legacy menu format. Review this menu before using
+  it for catering.
+events:
+- day: People
+  meal: unspecified
+  people: 1
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: hostel
+- day: Saturday
+  meal: unspecified
+  people: 46
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: hostel_by_people
+    people: 28
+  - recipe: breakfast
+  - recipe: cooked_breakfast
+    people: 40
+  - recipe: veggie_breakfast
+    people: 6
+  - recipe: packed_lunch
+  - recipe: veg_pasta_kids
+    people: 18
+  - recipe: Ingredients_for_Richard
+    people: 1
+  - recipe: raita
+    people: 30
+  - recipe: rice
+    people: 30
+  - recipe: chocolate_pudding
+- day: Sunday
+  meal: unspecified
+  people: 46
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: hostel_by_people
+    people: 28
+  - recipe: breakfast
+  - recipe: pancakes
+  - recipe: packed_lunch
+  - recipe: toad_in_the_hole
+    people: 18
+  - recipe: veggie_toad_in_the_hole
+    people: 18
+  - recipe: roast_dinner
+    people: 26
+  - recipe: vegan_irish_stew
+    people: 6
+- day: Monday
+  meal: unspecified
+  people: 25
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: breakfast
+- day: Friday
+  meal: unspecified
+  people: 35
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: jacket_potato
+    people: 30
+  - recipe: side_salad
+    people: 30
+  - recipe: soups/veg_and_lentil_soup
+additional_items:
+- ingredient: coconut_yogurt
+  quantity: 1
+- ingredient: avocado
+  quantity: 1
+- ingredient: marshmallow
+  quantity: 2

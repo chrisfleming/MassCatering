@@ -1,71 +1,84 @@
-# 34 Adults + 24 Children, but with meal preferences
-# Weekend: 46 Adult meals + 12 Children Meals  = 58
-# Monday Eve: 34 Adult Meals + 7 Children Meals = 41
-# Tuesday Breakfast 41 People.
-
-
-
-# General
-hostel:
-    z_people: 1
-
-hostel_by_people: #Adults Only
-    z_sunday: 34
-    z_monday: 34
-
-# Breakfast
-breakfast: # Cereal 70% attendance 
-    Sunday: 40
-    Tuesday: 40
-cooked_breakfast: 
-    Sunday: 40
-veggie_breakfast:
-    Sunday: 6
-french_toast:
-    Monday: 46
-
-
-# Lunch
-packed_lunch:
-    Saturday: 58
-    Sunday: 58
-# Monday Leftovers
-
-# Dinner
-## Saturday dinner at 75% for all
-jacket_potato:
-    Saturday: 35
-side_salad:
-    Saturday: 35
-soups/pea_soup:
-    Saturday: 35
-
-
-toad_in_the_hole:
-    Sunday: 18
-haggis:
-    Sunday: 39
-vegan_haggis:
-    Sunday: 20
-chocolate_pudding:
-    Sunday: 58
-
-marshmallow: 2
-
-
-kids_pizza:
-    Monday: 7
-chilli:
-    Monday: 17
-becks_bean_chilli:
-    Monday: 17
-rice:
-    Monday: 34
-guacamole:
-    Monday: 34
-
-puff_fruit_tart:
-    Monday: 41
-
-
-
+schema_version: 2
+name: Hostel24
+description: Automatically migrated from the legacy menu format. Review this menu before using
+  it for catering.
+events:
+- day: Sunday
+  meal: unspecified
+  people: 58
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: breakfast
+    people: 40
+  - recipe: cooked_breakfast
+    people: 40
+  - recipe: veggie_breakfast
+    people: 6
+  - recipe: packed_lunch
+  - recipe: toad_in_the_hole
+    people: 18
+  - recipe: haggis
+    people: 39
+  - recipe: vegan_haggis
+    people: 20
+  - recipe: chocolate_pudding
+- day: Tuesday
+  meal: unspecified
+  people: 40
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: breakfast
+- day: Monday
+  meal: unspecified
+  people: 46
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: french_toast
+  - recipe: kids_pizza
+    people: 7
+  - recipe: chilli
+    people: 17
+  - recipe: becks_bean_chilli
+    people: 17
+  - recipe: rice
+    people: 34
+  - recipe: guacamole
+    people: 34
+  - recipe: puff_fruit_tart
+    people: 41
+- day: Saturday
+  meal: unspecified
+  people: 58
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: packed_lunch
+  - recipe: jacket_potato
+    people: 35
+  - recipe: side_salad
+    people: 35
+  - recipe: soups/pea_soup
+    people: 35
+general_provisions:
+- recipe: hostel
+  multiplier: 1
+  notes: Automatically migrated from legacy label 'z_people'. Review how this provision should
+    be scaled.
+- recipe: hostel_by_people
+  people: 34
+  applies_to:
+  - Sunday
+  notes: Automatically migrated from legacy label 'z_sunday'. Review how this provision should
+    be scaled.
+- recipe: hostel_by_people
+  people: 34
+  applies_to:
+  - Monday
+  notes: Automatically migrated from legacy label 'z_monday'. Review how this provision should
+    be scaled.
+additional_items:
+- ingredient: marshmallow
+  quantity: 2

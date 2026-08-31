@@ -1,56 +1,70 @@
-# General
-hostel:
-    People: 1
-
-hostel_by_people:
-    Friday: 38
-    Saturday: 38
-    Sunday: 19
-
-# Breakfast
-breakfast:
-    Saturday: 20
-    Sunday: 16
-    Monday: 19
-cooked_breakfast:
-    Saturday: 20
-veggie_breakfast:
-    Saturday: 3
-pancakes:
-    Sunday: 25
-
-
-# Lunch
-packed_lunch:
-    Saturday: 38
-    Sunday: 35
-# Monday Leftovers
-
-# Dinner
-three_bean_chilli: 
-    Friday: 20
-jacket_potato:
-    Friday: 30
-side_salad:
-    Friday: 30
-
-sausage_and_mash:
-    Saturday: 15
-haggis: 
-    Saturday: 23
-vegan_haggis:
-    Saturday: 12
-chocolate_pudding:
-    Saturday: 38
-
-
-kids_pizza:
-    Sunday: 7
-pizza:
-    Sunday: 12
-side_salad:
-    Sunday: 19
-
-
-
-
+schema_version: 2
+name: Hostel22
+description: Automatically migrated from the legacy menu format. Review this menu before using
+  it for catering.
+events:
+- day: People
+  meal: unspecified
+  people: 1
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: hostel
+- day: Friday
+  meal: unspecified
+  people: 38
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: hostel_by_people
+  - recipe: three_bean_chilli
+    people: 20
+  - recipe: jacket_potato
+    people: 30
+- day: Saturday
+  meal: unspecified
+  people: 38
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: hostel_by_people
+  - recipe: breakfast
+    people: 20
+  - recipe: cooked_breakfast
+    people: 20
+  - recipe: veggie_breakfast
+    people: 3
+  - recipe: packed_lunch
+  - recipe: sausage_and_mash
+    people: 15
+  - recipe: haggis
+    people: 23
+  - recipe: vegan_haggis
+    people: 12
+  - recipe: chocolate_pudding
+- day: Sunday
+  meal: unspecified
+  people: 35
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: hostel_by_people
+    people: 19
+  - recipe: breakfast
+    people: 16
+  - recipe: pancakes
+    people: 25
+  - recipe: packed_lunch
+  - recipe: side_salad
+    people: 19
+  - recipe: kids_pizza
+    people: 7
+  - recipe: pizza
+    people: 12
+- day: Monday
+  meal: unspecified
+  people: 19
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: breakfast

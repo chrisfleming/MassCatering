@@ -1,5 +1,16 @@
-mexican_chilli:
-    people: 30
-guacamole:
-    people: 30
-potato: 30
+schema_version: 2
+name: Hostelchilli 19
+description: Automatically migrated from the legacy menu format. Review this menu before using
+  it for catering.
+events:
+- day: people
+  meal: unspecified
+  people: 30
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: mexican_chilli
+  - recipe: guacamole
+additional_items:
+- ingredient: potato
+  quantity: 30

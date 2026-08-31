@@ -1,116 +1,98 @@
-# 29 adults. 18 children
-# Saturday dinner: 29 + 15 + 3
-# Sunday dinner: 27 + 14 + 3
-# Monday dinner: 22 + 9 + 3
-
-# Saturday night (yes it keeps confusing us as well)
-# Baked potatoes with a veggie chilli / baked beans and salad
-# Chocolate pudding and ice-cream 
-
-# Cheese, crackers, vegan alternatives to provide late night snacking/grazing options) 
-
-# Sunday
-# Cereal and toast 
-# Breakfast rolls
-
-# Packed lunch
-
-# Curry (Richard)
-# Pavlova (Charlie)
-
-# Monday
-# Cereal and toast
-# Porridge with fresh fruit, maple syrup etc. 
-
-# Packed lunch
-
-# Roast pork (and vegan alternative)
-# Roast potatoes, parsnips and veg
-# Crumble
-
-
-# General
-hostel:
-    z_people: 1
-
-hostel_by_people: #Adults Only
-    z_sunday: 30
-    z_monday: 30
-
-# Breakfast
-breakfast: 
-    Sunday: 35
-    Monday: 35
-breakfast_rolls: 
-    Sunday: 50
-veggie_breakfast_rolls:
-    Sunday: 2
-
-# Porridge with fresh fruit, maple syrup etc. 
-porridge: 
-    Monday: 44
-
-# Lunch
-packed_lunch:
-    Sunday: 47
-    Monday: 44
-
-marshmallow: 2
-
-# Dinner
-jacket_potato:
-    Saturday: 47
-becks_bean_chilli:
-    Saturday: 47
-side_salad:
-    Saturday: 47
-chocolate_pudding:
-    Saturday: 47
-
-# Sunday Dinner
-# Curry (Richard)
-# Pavlova (Charlie)
-
-carribean_curry/apple_coleslaw:
-    Sunday: 44
-carribean_curry/curry_goat:
-    Sunday: 42
-carribean_curry/jerk_chicken:
-    Sunday: 42
-carribean_curry/jerk_chicken_gravy:
-    Sunday: 40
-carribean_curry/jerk_vegan_gravy:
-    Sunday: 6
-carribean_curry/peanut_sweet_potato_stew:
-    Sunday: 16
-carribean_curry/smoky_aubergine_rundown:
-    Sunday: 16
-carribean_curry/rice_and_peas:
-    Sunday: 44
-pavlova:
-    Sunday: 44
-
-
-
-## Monday Night Dinner
-# Roast pork (and vegan alternative)
-# Roast potatoes, parsnips and veg
-# Crumble
-roast_dinner:
-    Monday: 32
-vegan_wellington:
-    Monday: 4
-cauliflower_cheese:
-    Monday: 30
-yorkshire_pudding:
-    Monday: 36
-crumble:
-    Monday: 36
-
-
-50_50_bread: 1
-ham: 100g
-fries: 250g
-banana: 6
-OJ: 1l
-milk: 1l
+schema_version: 2
+name: Hostel Feb26
+description: Automatically migrated from the legacy menu format. Review this menu before using
+  it for catering.
+events:
+- day: Sunday
+  meal: unspecified
+  people: 50
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: breakfast
+    people: 35
+  - recipe: breakfast_rolls
+  - recipe: veggie_breakfast_rolls
+    people: 2
+  - recipe: packed_lunch
+    people: 47
+  - recipe: carribean_curry/apple_coleslaw
+    people: 44
+  - recipe: carribean_curry/curry_goat
+    people: 42
+  - recipe: carribean_curry/jerk_chicken
+    people: 42
+  - recipe: carribean_curry/jerk_chicken_gravy
+    people: 40
+  - recipe: carribean_curry/jerk_vegan_gravy
+    people: 6
+  - recipe: carribean_curry/peanut_sweet_potato_stew
+    people: 16
+  - recipe: carribean_curry/smoky_aubergine_rundown
+    people: 16
+  - recipe: carribean_curry/rice_and_peas
+    people: 44
+  - recipe: pavlova
+    people: 44
+- day: Monday
+  meal: unspecified
+  people: 44
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: breakfast
+    people: 35
+  - recipe: porridge
+  - recipe: packed_lunch
+  - recipe: roast_dinner
+    people: 32
+  - recipe: vegan_wellington
+    people: 4
+  - recipe: cauliflower_cheese
+    people: 30
+  - recipe: yorkshire_pudding
+    people: 36
+  - recipe: crumble
+    people: 36
+- day: Saturday
+  meal: unspecified
+  people: 47
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: jacket_potato
+  - recipe: becks_bean_chilli
+  - recipe: side_salad
+  - recipe: chocolate_pudding
+general_provisions:
+- recipe: hostel
+  multiplier: 1
+  notes: Automatically migrated from legacy label 'z_people'. Review how this provision should
+    be scaled.
+- recipe: hostel_by_people
+  people: 30
+  applies_to:
+  - Sunday
+  notes: Automatically migrated from legacy label 'z_sunday'. Review how this provision should
+    be scaled.
+- recipe: hostel_by_people
+  people: 30
+  applies_to:
+  - Monday
+  notes: Automatically migrated from legacy label 'z_monday'. Review how this provision should
+    be scaled.
+additional_items:
+- ingredient: marshmallow
+  quantity: 2
+- ingredient: 50_50_bread
+  quantity: 1
+- ingredient: ham
+  quantity: 100g
+- ingredient: fries
+  quantity: 250g
+- ingredient: banana
+  quantity: 6
+- ingredient: OJ
+  quantity: 1l
+- ingredient: milk
+  quantity: 1l

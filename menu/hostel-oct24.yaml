@@ -1,42 +1,56 @@
-# 16 Adults with meal preferences (1 Veggie, 1 Vegan)
-
-
-# General
-hostel:
-    z_people: 1
-
-hostel_by_people: 
-    z_saturday: 16
-    z_sunday: 16
-
-# Breakfast
-breakfast: # Cereal 70% attendance 
-    Saturday: 12
-    Sunday: 12
-breakfast_rolls: 
-    Saturday: 14
-veggie_breakfast_rolls:
-    Saturday: 2
-
-# Lunch
-packed_lunch:
-    Saturday: 16
-
-# Dinner
-jacket_potato:
-    Friday: 16
-side_salad:
-    Friday: 16
-soups/chickpea_leek_soup:
-    Friday: 16
-
-
-venison_stew_dumplings:
-    Saturday: 14
-vegan_bean_stew:
-    Saturday: 2
-crumble:
-    Saturday: 16
-
-
-
+schema_version: 2
+name: Hostel Oct24
+description: Automatically migrated from the legacy menu format. Review this menu before using
+  it for catering.
+events:
+- day: Saturday
+  meal: unspecified
+  people: 16
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: breakfast
+    people: 12
+  - recipe: breakfast_rolls
+    people: 14
+  - recipe: veggie_breakfast_rolls
+    people: 2
+  - recipe: packed_lunch
+  - recipe: venison_stew_dumplings
+    people: 14
+  - recipe: vegan_bean_stew
+    people: 2
+  - recipe: crumble
+- day: Sunday
+  meal: unspecified
+  people: 12
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: breakfast
+- day: Friday
+  meal: unspecified
+  people: 16
+  notes: Automatically migrated from a legacy menu. Review the meal type, event grouping and
+    dish-specific preparation notes.
+  dishes:
+  - recipe: jacket_potato
+  - recipe: side_salad
+  - recipe: soups/chickpea_leek_soup
+general_provisions:
+- recipe: hostel
+  multiplier: 1
+  notes: Automatically migrated from legacy label 'z_people'. Review how this provision should
+    be scaled.
+- recipe: hostel_by_people
+  people: 16
+  applies_to:
+  - Saturday
+  notes: Automatically migrated from legacy label 'z_saturday'. Review how this provision
+    should be scaled.
+- recipe: hostel_by_people
+  people: 16
+  applies_to:
+  - Sunday
+  notes: Automatically migrated from legacy label 'z_sunday'. Review how this provision should
+    be scaled.
