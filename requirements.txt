@@ -1,2 +1,4 @@
-Pint==0.9
-PyYAML==6.0.3
+streamlit
+PyYAML
+pint==0.25.3
+pytest
