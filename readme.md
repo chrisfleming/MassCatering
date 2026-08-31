@@ -214,8 +214,9 @@ MassCatering/
 ├── streamlit_app.py
 ├── requirements.txt
 ├── pyproject.toml
-├── food.yaml
-├── unit_registry.txt
+├── config/
+│   ├── food.yaml
+│   └── unit_registry.txt
 │
 ├── menu/
 │   ├── hostel_feb26.yaml
@@ -237,6 +238,16 @@ MassCatering/
 │
 └── tests/
 ```
+
+## Configuration
+
+Application-wide ingredient and unit configuration is stored in
+the `config/` directory.
+
+- `config/food.yaml` defines ingredient shopping categories,
+  preferred purchasing units and display names.
+- `config/unit_registry.txt` defines custom unit conversions,
+  such as the assumed mass of one potato or large egg.
 
 ---
 

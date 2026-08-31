@@ -1,0 +1,117 @@
+schema_version: 2
+source_directory: /Users/dmof/Documents/repos/MassCatering/menu/legacy
+output_directory: /Users/dmof/Documents/repos/MassCatering/menu_v2
+dry_run: false
+summary:
+  source_menus: 18
+  migrated: 17
+  failed: 1
+  review_items: 51
+migrated:
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/carribean_curry_night_26.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/carribean_curry_night_26.yaml
+  events: 1
+  general_provisions: 0
+  additional_items: 0
+  review_items: 1
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/curry_lunch_22.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/curry_lunch_22.yaml
+  events: 1
+  general_provisions: 0
+  additional_items: 9
+  review_items: 1
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/hostel-oct24.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/hostel-oct24.yaml
+  events: 3
+  general_provisions: 3
+  additional_items: 0
+  review_items: 6
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/hostel20.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/hostel20.yaml
+  events: 6
+  general_provisions: 0
+  additional_items: 5
+  review_items: 6
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/hostel22.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/hostel22.yaml
+  events: 5
+  general_provisions: 0
+  additional_items: 0
+  review_items: 5
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/hostel23.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/hostel23.yaml
+  events: 5
+  general_provisions: 0
+  additional_items: 3
+  review_items: 5
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/hostel24.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/hostel24.yaml
+  events: 4
+  general_provisions: 3
+  additional_items: 1
+  review_items: 7
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/hostel_feb25.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/hostel_feb25.yaml
+  events: 3
+  general_provisions: 3
+  additional_items: 9
+  review_items: 6
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/hostel_feb25_sunday.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/hostel_feb25_sunday.yaml
+  events: 1
+  general_provisions: 0
+  additional_items: 0
+  review_items: 1
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/hostel_feb26.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/hostel_feb26.yaml
+  events: 3
+  general_provisions: 3
+  additional_items: 7
+  review_items: 6
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/hostelChilli-19.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/hostelChilli-19.yaml
+  events: 1
+  general_provisions: 0
+  additional_items: 1
+  review_items: 1
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/soupersunday.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/soupersunday.yaml
+  events: 1
+  general_provisions: 0
+  additional_items: 0
+  review_items: 1
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/soupersunday2.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/soupersunday2.yaml
+  events: 1
+  general_provisions: 0
+  additional_items: 0
+  review_items: 1
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/stew_and_dumplings_for_6.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/stew_and_dumplings_for_6.yaml
+  events: 1
+  general_provisions: 0
+  additional_items: 0
+  review_items: 1
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/supper.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/supper.yaml
+  events: 1
+  general_provisions: 0
+  additional_items: 2
+  review_items: 1
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/wedding.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/wedding.yaml
+  events: 1
+  general_provisions: 0
+  additional_items: 3
+  review_items: 1
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/weekend.yaml
+  output: /Users/dmof/Documents/repos/MassCatering/menu_v2/weekend.yaml
+  events: 1
+  general_provisions: 0
+  additional_items: 3
+  review_items: 1
+failed:
+- source: /Users/dmof/Documents/repos/MassCatering/menu/legacy/christmass_2016.yaml
+  error: 'Cannot migrate menu ''christmass_2016'': recipe ''marinated_smoked_salmon_with_poppy_seeds'',
+    label ''url'' contains ''http://www.bbcgoodfood.com/recipes/7593/marinated-smoked-salmon-with-poppy-seeds'',
+    which is not a people count.'

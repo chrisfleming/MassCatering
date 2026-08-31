@@ -397,7 +397,7 @@ def format_shopping_quantity(
     """
     Format a quantity for a shopping list.
 
-    If ``food.yaml`` defines a preferred ``unit``, the calculated
+    If ``config/food.yaml`` defines a preferred ``unit``, the calculated
     quantity is converted into that purchasing unit.
 
     Examples:
@@ -482,7 +482,7 @@ def display_ingredient_name(
     """
     Return a human-readable ingredient name.
 
-    A ``display_name`` from ``food.yaml`` takes precedence. Otherwise,
+    A ``display_name`` from ``config/food.yaml`` takes precedence.
     underscores are replaced with spaces.
     """
 

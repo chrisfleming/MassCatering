@@ -6,10 +6,12 @@ import yaml
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
+CONFIG_DIR = PROJECT_ROOT / "config"
 RECIPE_DIR = PROJECT_ROOT / "recipe"
 MENU_DIR = PROJECT_ROOT / "menu"
-FOOD_FILE = PROJECT_ROOT / "food.yaml"
-UNIT_REGISTRY_FILE = PROJECT_ROOT / "unit_registry.txt"
+
+FOOD_FILE = CONFIG_DIR / "food.yaml"
+UNIT_REGISTRY_FILE = CONFIG_DIR / "unit_registry.txt"
 
 
 class RepositoryError(Exception):
@@ -97,7 +99,7 @@ def load_food_catalogue() -> dict:
 
     if not isinstance(data, dict):
         raise RepositoryError(
-            "food.yaml must contain a YAML mapping."
-        )
+            "config/food.yaml must contain a YAML mapping."
+            )
 
     return data
