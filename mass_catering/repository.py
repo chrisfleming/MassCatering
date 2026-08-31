@@ -7,7 +7,7 @@ import yaml
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 RECIPE_DIR = PROJECT_ROOT / "recipe"
-MENU_DIR = PROJECT_ROOT / "menu_v2"
+MENU_DIR = PROJECT_ROOT / "menu"
 FOOD_FILE = PROJECT_ROOT / "food.yaml"
 UNIT_REGISTRY_FILE = PROJECT_ROOT / "unit_registry.txt"
 

@@ -1,0 +1,52 @@
+schema_version: 2
+name: Hostel Oct26
+description: Dalwhinne
+events:
+- day: Friday
+  meal: Dinner
+  people: 17
+  notes: 
+  dishes:
+  - recipe: fish_pie
+  - recipe: vegan_fish_pie
+    people: 2
+
+- day: Saturday
+  meal: Breakfast
+  people: 18
+  notes:
+  dishes:
+  - recipe: breakfast
+  - recipe: breakfast_rolls
+    people: 16
+  - recipe: veggie_breakfast_rolls
+    people: 2
+- day: Saturday
+  meal: Lunch
+  people: 18
+  notes:
+  dishes:
+  - recipe: packed_lunch
+- day: Saturday
+  meal: Dinner
+  people: 18
+  notes:
+  dishes:
+  - recipe: game_stew
+    people: 14
+  - recipe: vegan_bean_stew
+    people: 2
+  - recipe: crumble
+- day: Sunday
+  meal: Breakfast
+  people: 18
+  notes:
+  dishes:
+  - recipe: breakfast
+
+general_provisions:
+- recipe: hostel
+  multiplier: 1
+- recipe: hostel_by_people
+  people: 38
+
