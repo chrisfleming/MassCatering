@@ -869,7 +869,39 @@ if compilation:
                 recipe,
                 compiled_rounding,
             )
+        
+        st.divider()
 
+        st.markdown("### Downloads")
+
+        download_column_1, download_column_2 = (
+            st.columns(2)
+        )
+
+        with download_column_1:
+            st.download_button(
+                label="Download shopping list",
+                data=markdown,
+                file_name=(
+                    f"{compilation['menu_name']}"
+                    "_shopping_list.md"
+                ),
+                mime="text/markdown",
+                use_container_width=True,
+            )
+
+        with download_column_2:
+            st.download_button(
+                label="Download complete weekend PDF",
+                data=pdf,
+                file_name=(
+                    f"{compilation['menu_name']}"
+                    "_menu_pack.pdf"
+                ),
+                mime="application/pdf",
+                type="primary",
+                use_container_width=True,
+            )
 
     # ------------------------------------------------------------------
     # Validation
