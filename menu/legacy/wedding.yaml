@@ -1,0 +1,30 @@
+# General
+wedding_by_people:
+    people: 53
+wedding:
+    people: 53
+fruit_salad:
+    people: 50
+
+# Friday
+
+# Saturday
+breakfast:
+    people: 51
+packed_lunch:
+    people: 52
+gluten_free_rolls: 12 unit
+
+# Sunday
+cooked_breakfast:
+    people: 60
+veggie_breakfast:
+    people: 8
+avocado: 8 units
+
+ice_cream: 6l
+
+# Monday
+breakfast:
+    people: 46
+gluten_free_rolls: 12 unit

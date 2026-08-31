@@ -1,0 +1,63 @@
+
+# General
+hostel:
+    People: 1
+
+hostel_by_people: #Adults Only (Test year)
+    Saturday: 28
+    Sunday: 28
+
+# Breakfast
+breakfast:
+    Saturday: 46
+    Sunday: 46
+    Monday: 25
+cooked_breakfast:
+    Saturday: 40
+veggie_breakfast:
+    Saturday: 6
+pancakes:
+    Sunday: 46
+
+
+# Lunch
+packed_lunch:
+    Saturday: 46
+    Sunday: 46
+# Monday Leftovers
+
+# Dinner
+jacket_potato:
+    Friday: 30
+side_salad:
+    Friday: 30
+soups/veg_and_lentil_soup:
+    Friday: 35
+
+veg_pasta_kids:
+    Saturday: 18
+Ingredients_for_Richard: 
+    Saturday: 1
+raita:
+    Saturday: 30
+coconut_yogurt: 1
+avocado: 1
+rice:
+    Saturday: 30
+chocolate_pudding:
+    Saturday: 46
+
+marshmallow: 2
+
+
+toad_in_the_hole:
+    Sunday: 18
+veggie_toad_in_the_hole:
+    Sunday: 18
+roast_dinner:
+    Sunday: 26
+vegan_irish_stew: 
+    Sunday: 6
+
+
+

@@ -1,0 +1,77 @@
+# 30 Adults + 20 Children
+# Down to 19/10 for Sunday Night
+
+# General
+hostel:
+    z_people: 1
+
+hostel_by_people: #Adults Only
+    z_sunday: 30
+    z_monday: 30
+
+# Breakfast
+breakfast: # Cereal 70% attendance 
+    Saturday: 35
+    Sunday: 35
+breakfast_rolls: 
+    Saturday: 50
+veggie_breakfast_rolls:
+    Saturday: 4
+french_toast:
+    Sunday: 50
+
+# Lunch
+packed_lunch:
+    Saturday: 50
+    Sunday: 50
+
+# Dinner
+jacket_potato:
+    Friday: 50
+side_salad:
+    Friday: 50
+soups/pea_soup:
+    Friday: 50
+
+
+marshmallow: 2
+pork_cider_stew:
+    Saturday: 46
+vegan_bean_stew:
+    Saturday: 12
+springgreen_side:
+    Saturday: 50
+rice:
+    Saturday: 50
+chocolate_pudding:
+    Saturday: 50
+
+
+# 70% for all Salads, 50% for Veggie main
+lavantine_roast/lavantine_roast_lamb:
+    Sunday: 29
+lavantine_roast/tahini_potatoes:
+    Sunday: 29
+lavantine_roast/pomegranate_harissa_aubergine:
+    Sunday: 14
+lavantine_roast/chickpea_feta_salad:
+    Sunday: 20
+lavantine_roast/onion_sumac_salad:
+    Sunday: 20
+lavantine_roast/spice_roasted_celeriac:
+    Sunday: 20
+lavantine_roast/tomato_salad:
+    Sunday: 20
+
+
+puff_fruit_tart:
+    Sunday: 29
+
+50_50_bread: 1
+ham: 100g
+fries: 250g
+banana: 6
+OJ: 1l
+milk: 1l
+tortellini_ham: 2
+pesto: 1

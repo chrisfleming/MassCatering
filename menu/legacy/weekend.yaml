@@ -1,0 +1,43 @@
+aubergine_curry:
+    people: 5
+breakfast:
+    people: 216
+fruit_salad:
+    people: 2
+chickpea_leek_soup:
+    people: 54
+sweet_potato_coconut_and_cardamon_soup:
+    people: 54
+lunch_side:
+    people: 108
+gluten_free_rolls:
+    people: 4
+banoffee_balls:
+    people: 12
+victoria_sponge:
+    people: 12
+cheese_scones:
+    people: 110
+crisps: 3kg
+free_from_afternoon_tea:
+    people: 1
+beef_stew:
+    people: 100
+dumplings:
+    people: 100
+vegan_stew:
+    people: 1
+vegan_gf_stew:
+    people: 1
+mash:
+    people: 106
+burgers:
+    people: 125
+vegtable_burgers:
+    people: 12
+ice_cream: 10 l
+glace: 1 unit
+other:
+    people: 1
+other_by_people:
+    people: 106
